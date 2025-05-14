@@ -58,7 +58,7 @@ GitHub Actions 会每日 00:00（UTC 时间）自动运行：
 - 如需修改同步源：编辑 .github/workflows/update_worker.yml，修改源仓库地址即可。
 
 ---
-##在 Cloudflare Pages 创建项目
+##  配置说明在cloudeflare 后台- 左侧点击【pages】—【创建项目】
 
 登录 Cloudflare 后台 → 左侧点击【Pages】→ 【创建项目】
 选择 连接到 GitHub：
@@ -68,7 +68,7 @@ GitHub Actions 会每日 00:00（UTC 时间）自动运行：
 项目名字自己取，比如 cf-auto-update
 分支选择 main
 
-##配置环境变量（Variables）
+##  配置环境变量（Varidbles）
 在 Pages 项目设置里：
 
 -打开 【设置 Settings】→ 【环境变量 Environment Variables】
@@ -81,7 +81,7 @@ GitHub Actions 会每日 00:00（UTC 时间）自动运行：
 -变量名字全大写！
 -TR_PASS、FALLBACK 都是根据项目需求补充的。
 
-##配置 KV 存储绑定
+##  配置KV 存储绑定
 -Pages Functions 也可以使用 KV，
 -需要绑定 KV 存储桶。
 
@@ -94,7 +94,7 @@ GitHub Actions 会每日 00:00（UTC 时间）自动运行：
 -kv	你刚才创建的 test
 ✅ Binding Name 必须是 kv 小写，保持和代码对应！
 
-##访问面板
+##  访问面板
 部署完成后：
 
 访问你的 Pages 地址，比如：
