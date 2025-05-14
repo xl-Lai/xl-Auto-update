@@ -58,7 +58,7 @@ GitHub Actions 会每日 00:00（UTC 时间）自动运行：
 - 如需修改同步源：编辑 .github/workflows/update_worker.yml，修改源仓库地址即可。
 
 ---
-##  配置说明在cloudeflare 后台- 左侧点击【pages】—【创建项目】
+##  创建项目：在cloudeflare 后台- 左侧点击【pages】—【创建项目】
 
 登录 Cloudflare 后台 → 左侧点击【Pages】→ 【创建项目】
 选择 连接到 GitHub：
