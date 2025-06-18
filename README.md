@@ -71,27 +71,27 @@ GitHub Actions 会每日 00:00（UTC 时间）自动运行：
 ##  配置环境变量（Varidbles）
 在 Pages 项目设置里：
 
--打开 【设置 Settings】→ 【环境变量 Environment Variables】
--添加这些变量：
--名字	内容
--UUID	自己生成一个 UUID，比如去 https://1024tools.com/uuid
--TR_PASS	自己设一个密码
--FALLBACK	推荐设置成 example.com
+- 打开 【设置 Settings】→ 【环境变量 Environment Variables】
+- 添加这些变量：
+- 名字	内容
+- UUID	自己生成一个 UUID，比如去 https://1024tools.com/uuid
+- TR_PASS	自己设一个密码
+- FALLBACK	推荐设置成 example.com
 ⚡ 注意：
--变量名字全大写！
--TR_PASS、FALLBACK 都是根据项目需求补充的。
+- 变量名字全大写！
+- TR_PASS、FALLBACK 都是根据项目需求补充的。
 
 ##  配置KV 存储绑定
--Pages Functions 也可以使用 KV，
--需要绑定 KV 存储桶。
+- Pages Functions 也可以使用 KV，
+- 需要绑定 KV 存储桶。
 
 步骤：
--Cloudflare 后台左侧【Workers & KV】→ 【KV 存储】
--创建一个新的命名空间（比如叫 test）
--回到 Pages 项目的【Settings → KV Bindings】
--添加绑定：
--Binding Name	Namespace
--kv	你刚才创建的 test
+- Cloudflare 后台左侧【Workers & KV】→ 【KV 存储】
+- 创建一个新的命名空间（比如叫 test）
+- 回到 Pages 项目的【Settings → KV Bindings】
+- 添加绑定：
+- Binding Name	Namespace
+- kv	你刚才创建的 test
 ✅ Binding Name 必须是 kv 小写，保持和代码对应！
 
 ##  访问面板
